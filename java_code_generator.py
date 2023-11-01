@@ -29,7 +29,7 @@ TEST_STRATEGY = {
 }
 
 BASE_PROMPT = """
-Now you are a java programmer, i will give you json information pof java file which is one file of springboot project.
+Now you are a java programmer, i will give you json information of java file which is one file of springboot project.
 Then you can write tests based on this file
 i will tell you the folder structure of the project, and the code of the java file.
 you need to write tests for this java program.
@@ -52,7 +52,7 @@ your return should be a json like:
         "name": "test.java"
     }}
 }}
-[on content should be in markdown format.]
+[One content should be in markdown format.]
 ===========
 just give me the json result, no explanation
 ===========
